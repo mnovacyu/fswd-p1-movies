@@ -1,6 +1,7 @@
 import fresh_tomatoes
 import media
 
+# creating instances of media.Movie
 avengers = media.Movie("The Avengers", "Heroes get together.",
                         "https://upload.wikimedia.org/wikipedia/en/f/f9/TheAvengers2012Poster.jpg",
                         "https://www.youtube.com/watch?v=eOrNdBpGMv8")
@@ -25,12 +26,5 @@ inside_out = media.Movie("Inside Out", "Emotions come to life.",
                          "https://upload.wikimedia.org/wikipedia/en/0/0a/Inside_Out_%282015_film%29_poster.jpg",
                          "https://www.youtube.com/watch?v=seMwpP0yeu4")
 
+# combining all instances into a movies array
 movies = [avengers, kung_fu_hustle, memento, inception, power_rangers, inside_out]
-
-#fresh_tomatoes.open_movies_page(movies)
-
-#print(media.Movie.VALID_RATINGS)
-
-#print(media.Movie.__doc__)
-print("media.Movie.__name__ is.. " + media.Movie.__name__) # should be "Movie"
-print("media.Movie.__module__ is.. " + media.Movie.__module__) # should be "media"
