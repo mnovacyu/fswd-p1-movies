@@ -26,23 +26,23 @@ memento = media.Movie(
 # Inception movie: movie title, storyline, poster image and movie trailer
 inception = media.Movie(
 	"Inception",
-	"We have to go deeper.",
-	"https://upload.wikimedia.org/wikipedia/en/2/2e/Inception_%282010%29_theatrical_poster.jpg",  # NOQA
-	"https://www.youtube.com/watch?v=YoHD9XEInc0")
+    "We have to go deeper.",
+    "https://upload.wikimedia.org/wikipedia/en/2/2e/Inception_%282010%29_theatrical_poster.jpg",  # NOQA
+    "https://www.youtube.com/watch?v=YoHD9XEInc0")
 
 # Power Rangers movie: movie title, storyline, poster image and movie trailer
 power_rangers = media.Movie(
-	"Power Rangers",
-	"Teenagers with attitudes.",
-	"https://upload.wikimedia.org/wikipedia/en/7/78/Power_Rangers_%282017_Official_Theatrical_Poster%29.png",  # NOQA
+    "Power Rangers",
+    "Teenagers with attitudes.",
+    "https://upload.wikimedia.org/wikipedia/en/7/78/Power_Rangers_%282017_Official_Theatrical_Poster%29.png",  # NOQA
     "https://www.youtube.com/watch?v=5kIe6UZHSXw")
 
 # Inside Out movie: movie title, storyline, poster image and movie trailer
 inside_out = media.Movie(
-	"Inside Out",
-	"Emotions come to life.",
-	"https://upload.wikimedia.org/wikipedia/en/0/0a/Inside_Out_%282015_film%29_poster.jpg",  # NOQA
-	"https://www.youtube.com/watch?v=seMwpP0yeu4")
+    "Inside Out",
+    "Emotions come to life.",
+    "https://upload.wikimedia.org/wikipedia/en/0/0a/Inside_Out_%282015_film%29_poster.jpg",  # NOQA
+    "https://www.youtube.com/watch?v=seMwpP0yeu4")
 
 # Combining all instances into a movies array
 movies = [
