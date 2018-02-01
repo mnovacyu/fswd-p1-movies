@@ -1,4 +1,4 @@
-# Movies Trailer Website
+# Movie Trailers Website
 This website shows a list of my favorite movies with trailers.
 
 ## Usage
